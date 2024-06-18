@@ -1,0 +1,28 @@
+.navbar-image{
+    background-image: url('../assets/logo1.jpg');
+    height: 300px;
+}
+
+.navbar-options{
+    background-color: #0E0D0D;
+    opacity: 70%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+
+.navbar-options ul{
+    display: flex;
+    gap: 24px;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.navbar-options ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+}
