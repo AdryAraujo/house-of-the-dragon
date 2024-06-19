@@ -1,12 +1,24 @@
 import Navbar from "./components/Navbar";
 import './App.css';
+import logoRed from './assets/vermelha-oficial-removebg-preview.png';
+import logoGreen from './assets/verde-oficial-removebg-preview.png';
 
 function App() {
   return (
     <div className="app">
       <Navbar />
       <div className="container-time">
-        <h1>Escolha o seu lado!</h1>
+        <img src={logoRed} alt="" />
+        <div className="content-time">
+          <h1>Escolha o seu lado!<br />
+            <span>Quem merece o Trono de Ferro? </span>
+          </h1>
+          <span className="container-buttons">
+            <button id="button-black">Time Preto</button>
+            <button id="button-green">Time Verde</button>
+          </span>
+        </div>
+        <img src={logoGreen} alt="" />
       </div>
     </div>
   );
