@@ -1,8 +1,14 @@
-import Navbar from './components/Navbar.jsx';
+import Navbar from "./components/Navbar";
+import './App.css';
 
 function App() {
   return (
-    <Navbar/>
+    <div className="app">
+      <Navbar />
+      <div className="container-time">
+        <h1>Escolha o seu lado!</h1>
+      </div>
+    </div>
   );
 }
 
