@@ -8,7 +8,7 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: var(--background-color);
   width: 100%;
   margin: 0;
   padding: 0;
@@ -18,7 +18,7 @@ body {
 :root {
   --primary-color: #591608;
   --secondary-color: #142810;
-  --tertiary-color: #ffffff
+  --tertiary-color: #ffffff;
   --cinza-color: rgb(41, 40, 40, 0.5);
 
   --navbar-color: rgb(14, 13, 13, 0.7);
