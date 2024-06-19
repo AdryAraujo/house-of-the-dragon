@@ -10,7 +10,6 @@ function Navbar() {
         <div className="navbar-image">
             <nav className='navbar-options'>
                 <img src={logo} alt="" />
-
                 <button
                     className="menu"
                     onClick={() => setMenuOpen(!menuOpen)}>
