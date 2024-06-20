@@ -7,6 +7,9 @@ function App() {
   return (
     <div className="app">
       <Navbar />
+
+      {/* secção de escolha de time */}
+
       <div className="container-time">
         <img src={logoRed} alt="" />
         <div className="content-time">
@@ -20,6 +23,12 @@ function App() {
         </div>
         <img src={logoGreen} alt="" />
       </div>
+
+      {/* secção de personagens */}
+      <div>
+        
+      </div>
+
     </div>
   );
 }
