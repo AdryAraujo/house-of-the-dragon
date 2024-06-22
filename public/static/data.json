@@ -1,0 +1,30 @@
+[
+    {
+      "name": "Daemon Targaryen" ,
+      "image": "http://localhost:3000/static/assets/daemon.jpg"
+    },
+    {
+      "name": "Rhaenyra Targaryen" ,
+      "image": "http://localhost:3000/static/assets/rhaenyra.jpg"
+    },
+    {
+      "name": "Alicent Hightower" ,
+      "image": "http://localhost:3000/static/assets/alicent.jpg"
+    },
+    {
+      "name": "Otto Hightower" ,
+      "image": "http://localhost:3000/static/assets/otto.jpg"
+    },
+    {
+      "name": "Criston Cole" ,
+      "image": "http://localhost:3000/static/assets/criston.jpg"
+    },
+    {
+      "name": "Corlys Velaryon" ,
+      "image": "http://localhost:3000/static/assets/corlys.jpg"
+    },
+    {
+      "name": "Rhaenys Velaryon" ,
+      "image": "http://localhost:3000/static/assets/rhaenys.jpg"
+    }
+]
