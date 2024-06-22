@@ -1,0 +1,33 @@
+.container-carousel {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 40px;
+    height: auto;
+    /* margin-block-end: 24px; */
+}
+
+
+.carousel-item {
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+}
+
+.carousel-item img {
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    object-fit: cover;
+    /* background-image: url('../../assets/daemon.jpg');
+    background-size: cover; */
+}
+
+.carousel-item img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}

@@ -1,7 +1,8 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar/Navbar";
 import './App.css';
 import logoRed from './assets/vermelha-oficial-removebg-preview.png';
 import logoGreen from './assets/verde-oficial-removebg-preview.png';
+import { Carousel } from "./components/carousel/Carousel";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
       </div>
 
       {/* secção de personagens */}
+      <Carousel/>
+
       {/* secção do mapa */}
       <div className="container-mapa">
         <div className="content-mapa">

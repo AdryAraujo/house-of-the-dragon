@@ -1,5 +1,5 @@
 .navbar-image{
-    background-image: url('../assets/capaRhaenyraMd.jpg');
+    background-image: url('../../assets/capaRhaenyraMd.jpg');
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
     .navbar-image{
         /* background-image: linear-gradient(to left, rgba(0,0,0,1) 0%,
         rgba(0,0,0,0) 100%), url('../assets/capaRhaenyraLg.jpg'); */
-        background-image: url('../assets/capaRhaenyraLg.jpg');
+        background-image: url('../../assets/capaRhaenyraLg.jpg');
         background-size:cover;
         height: 300px;
     }
@@ -17,7 +17,7 @@
 
 @media (max-width:570px){
     .navbar-image{
-        background-image: url('../assets/capaRhaenyraMb.jpg');
+        background-image: url('../../assets/capaRhaenyraMb.jpg');
         background-size: cover;
         height: 300px;
     }
