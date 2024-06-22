@@ -25,3 +25,12 @@ body {
 
   --background-color: #000000;
 }
+
+@font-face {
+  font-family: Game of Thrones;
+  src: url('../public/Game-of-Thrones.ttf');
+}
+
+h1, h2{
+  font-family: 'Game of Thrones';
+}

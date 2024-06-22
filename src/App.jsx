@@ -14,7 +14,7 @@ function App() {
         <img src={logoRed} alt="" />
         <div className="content-time">
           <h1>Escolha o seu lado!<br />
-            <span>Quem merece o Trono de Ferro? </span>
+            Quem merece o Trono de Ferro?
           </h1>
           <span className="container-buttons">
             <button id="button-black">Time Preto</button>
@@ -25,8 +25,15 @@ function App() {
       </div>
 
       {/* secção de personagens */}
-      <div>
-        
+      {/* secção do mapa */}
+      <div className="container-mapa">
+        <div className="content-mapa">
+          <h2>Fogo e Sangue</h2>
+          <p>
+            Neste Domingo, dia 16 de Junho, foi ao ar o 1° episódio da 2° temporada da série, tendo 1hr e 8min. Com o título “Um filho por um filho”, explora os temas de luto, raiva, vingança e manipulação, tendo cenas com atuações geniais, além do surgimento de novos persongens, bem como mais aprofundamento nos já existentes.
+          </p>
+          <button id="button-red">Saiba Mais</button>
+        </div>
       </div>
 
     </div>
