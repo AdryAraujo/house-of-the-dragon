@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './Navbar.css';
 import { FaBars, FaTimes } from 'react-icons/fa'
 import logo from '../../assets/logoTargaryen.png'
+import { Link } from 'react-router-dom';
 
 
 function Navbar() {
@@ -17,16 +18,16 @@ function Navbar() {
                 </button>
                 <ul className={menuOpen ? "open" : ""}>
                     <li>
-                        <a href="/">Início</a>
+                        <Link to='/'>Início</Link>
                     </li>
                     <li>
-                        <a href="/">Personagens</a>
+                        <Link to='/personagens'>Personagens</Link>
                     </li>
                     <li>
-                        <a href="/">Resumo</a>
+                        <Link to='/'>Resumo</Link>
                     </li>
                     <li>
-                        <a href="/">Dragões</a>
+                        <Link to='/'>Dragões</Link>
                     </li>
                 </ul>
             </nav>

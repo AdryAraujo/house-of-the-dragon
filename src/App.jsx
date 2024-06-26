@@ -3,14 +3,20 @@ import './App.css';
 import logoRed from './assets/vermelha-oficial-removebg-preview.png';
 import logoGreen from './assets/verde-oficial-removebg-preview.png';
 import { Carousel } from "./components/carousel/Carousel";
+import { useState } from "react";
+import { Modal } from "./components/Modal";
 
 function App() {
+
+  const [greenModal, setGreenModal] = useState(false);
+  const [blackModal, setBlackModal] = useState(false);
+
   return (
     <div className="app">
       <Navbar />
+      <Modal greenOpen={greenModal} blackOpen={blackModal}/>
 
       {/* secção de escolha de time */}
-
       <div className="container-time">
         <img src={logoRed} alt="" />
         <div className="content-time">
@@ -18,8 +24,8 @@ function App() {
             Quem merece o Trono de Ferro?
           </h1>
           <span className="container-buttons">
-            <button id="button-black">Time Preto</button>
-            <button id="button-green">Time Verde</button>
+            <button id="button-black" onClick={() => setBlackModal(true)}>Time Preto</button>
+            <button id="button-green" onClick={() => setGreenModal(true)}>Time Verde</button>
           </span>
         </div>
         <img src={logoGreen} alt="" />
