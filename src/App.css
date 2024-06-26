@@ -4,6 +4,10 @@
     width: 100%;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 /* div de escolha de times */
 
 .container-time {
@@ -24,6 +28,7 @@
     text-align: center;
     color: #F2D589;
     line-height: 80px;
+    letter-spacing: 4px;
     /* flex-direction: column; */
 }
 

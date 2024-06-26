@@ -1,9 +1,11 @@
 import './Carousel.css'
 import { useEffect, useRef, useState } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 export function Carousel() {
 
+    const navigate = useNavigate();
     const [data, setData] = useState([]);
     const carousel = useRef(null);
 
@@ -25,6 +27,11 @@ export function Carousel() {
         carousel.current.scrollLeft += carousel.current.offsetWidth;
     }
 
+    function handleRedirectToInfo(name) {
+        navigate(`/personagens`, { state: { name } }); // Redireciona com state
+        console.log("chegou aqui")
+      }
+
     return (
         <div className='container-carousel'>
             <button 
@@ -37,7 +44,7 @@ export function Carousel() {
                     const { name, image } = item
                     return (
                         <div className="carousel-item" key={name}>
-                            <img src={image} alt="" />
+                            <img src={image} alt=""  onClick={() => handleRedirectToInfo(name)}/>
                             {/* <button>{name}</button> */}
                         </div>
                     )
