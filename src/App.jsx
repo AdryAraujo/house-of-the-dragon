@@ -14,7 +14,11 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-      <Modal greenOpen={greenModal} blackOpen={blackModal}/>
+      <Modal 
+      greenOpen={greenModal} 
+      blackOpen={blackModal} 
+      setCloseGreen={() => setGreenModal(!greenModal)}
+      setCloseBlack={() => setBlackModal(!blackModal)}/>
 
       {/* secção de escolha de time */}
       <div className="container-time">
