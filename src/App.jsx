@@ -4,7 +4,7 @@ import logoRed from './assets/vermelha-oficial-removebg-preview.png';
 import logoGreen from './assets/verde-oficial-removebg-preview.png';
 import { Carousel } from "./components/carousel/Carousel";
 import { useState } from "react";
-import { Modal } from "./components/Modal";
+import { Modal } from "./components/modal/Modal";
 
 function App() {
 

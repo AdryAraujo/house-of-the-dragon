@@ -1,6 +1,6 @@
 import './Modal.css';
-import memeBlack from '../assets/meme-black.jpg';
-import memeGreen from '../assets/memes-house-of-the-dragon-dragao-olho.jpg';
+import memeBlack from '../../assets/meme-black.jpg';
+import memeGreen from '../../assets/memes-house-of-the-dragon-dragao-olho.jpg';
 
 export function Modal({greenOpen, blackOpen, setCloseBlack, setCloseGreen}){
     if(greenOpen){

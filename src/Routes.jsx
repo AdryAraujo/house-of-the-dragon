@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import { Personagens } from "./pages/Personagens";
+import { Personagens } from "./pages/personagensSection/Personagens";
 
 export const router = createBrowserRouter([
     {

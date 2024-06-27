@@ -1,0 +1,41 @@
+h1{
+    color: wheat;
+}
+
+.container-list{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid yellow;
+}
+
+.list-item{
+    border-bottom: 1px solid var(--background-modal);
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.list-item:hover{
+    background-color: var(--background-modal);
+    border: 1px solid var(--background-color);
+}
+
+.list-item img{
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+
+}
+
+.list-text{
+    border: 1px solid red;
+    color: var(--tertiary-color);
+    letter-spacing: 4px;
+    width: 50%;
+}
+
+.list-text{
+
+}
