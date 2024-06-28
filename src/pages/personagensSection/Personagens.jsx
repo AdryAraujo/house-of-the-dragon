@@ -11,7 +11,7 @@ export function Personagens() {
     return (
         <div>
             <Navbar/>
-            <h1>Personagens em Destaque</h1>
+            <h1 id="tittle">Personagens em Destaque</h1>
             <PersonagensList />
         </div>
     )

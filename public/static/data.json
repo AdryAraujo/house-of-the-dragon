@@ -2,42 +2,42 @@
     {
       "name": "Daemon Targaryen" ,
       "image": "http://localhost:3000/static/assets/daemon.jpg",
-      "descricion": ""
+      "descricion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sint in cumque sapiente perspiciatis dolorem incidunt, praesentium beatae placeat nihil eum optio quas, quam dicta a molestiae illum quis ipsam."
     },
     {
       "name": "Rhaenyra Targaryen" ,
       "image": "http://localhost:3000/static/assets/rhaenyra.jpg",
-      "descricion": ""
+      "descricion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sint in cumque sapiente perspiciatis dolorem incidunt, praesentium beatae placeat nihil eum optio quas, quam dicta a molestiae illum quis ipsam."
 
     },
     {
       "name": "Alicent Hightower" ,
       "image": "http://localhost:3000/static/assets/alicent.jpg",
-      "descricion": ""
+      "descricion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sint in cumque sapiente perspiciatis dolorem incidunt, praesentium beatae placeat nihil eum optio quas, quam dicta a molestiae illum quis ipsam."
 
     },
     {
       "name": "Otto Hightower" ,
       "image": "http://localhost:3000/static/assets/otto.jpg",
-      "descricion": ""
+      "descricion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sint in cumque sapiente perspiciatis dolorem incidunt, praesentium beatae placeat nihil eum optio quas, quam dicta a molestiae illum quis ipsam."
 
     },
     {
       "name": "Criston Cole" ,
       "image": "http://localhost:3000/static/assets/criston.jpg",
-      "descricion": ""
+      "descricion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sint in cumque sapiente perspiciatis dolorem incidunt, praesentium beatae placeat nihil eum optio quas, quam dicta a molestiae illum quis ipsam."
 
     },
     {
       "name": "Corlys Velaryon" ,
       "image": "http://localhost:3000/static/assets/corlys.jpg",
-      "descricion": ""
+      "descricion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sint in cumque sapiente perspiciatis dolorem incidunt, praesentium beatae placeat nihil eum optio quas, quam dicta a molestiae illum quis ipsam."
 
     },
     {
       "name": "Rhaenys Velaryon" ,
       "image": "http://localhost:3000/static/assets/rhaenys.jpg",
-      "descricion": ""
+      "descricion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sint in cumque sapiente perspiciatis dolorem incidunt, praesentium beatae placeat nihil eum optio quas, quam dicta a molestiae illum quis ipsam."
 
     }
 ]

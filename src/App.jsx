@@ -1,7 +1,9 @@
 import Navbar from "./components/navbar/Navbar";
 import './App.css';
-import logoRed from './assets/vermelha-oficial-removebg-preview.png';
-import logoGreen from './assets/verde-oficial-removebg-preview.png';
+// import logoRed from './assets/vermelha-oficial-removebg-preview.png';
+// import logoGreen from './assets/verde-oficial-removebg-preview.png';
+import logoRed from './assets/VERMELHO.png';
+import logoGreen from './assets/DOURADO.png';
 import { Carousel } from "./components/carousel/Carousel";
 import { useState } from "react";
 import { Modal } from "./components/modal/Modal";
