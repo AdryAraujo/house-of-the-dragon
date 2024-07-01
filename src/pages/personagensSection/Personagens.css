@@ -15,12 +15,16 @@
 .list-item{
     border: 1px solid var(--background-modal);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     gap: 32px;
-    padding: 24px;
+    padding-block: 24px;
     box-sizing: border-box;
     flex-wrap: wrap;
     background-color:#0B0B0B;
+    padding-inline: 40px;
+    box-sizing: border-box;
+
 }
 
 .list-item:hover{
@@ -33,16 +37,29 @@
     height: 180px;
     width: 180px;
     object-fit: cover;
-
+        /* border: 1px solid red; */
 }
 
 .list-text{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: var(--tertiary-color);
-    letter-spacing: 4px;
+    letter-spacing: 3.5px;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: justify;
 }
 
-.list-text{
-
+.button-learn{
+    width: 148px;
+    height: 40px;
+    color: var(--tertiary-color);
+    border-radius: 10px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    box-shadow: var( --shadow-black-buttons);
+    background-color: var(--primary-color);
 }
+

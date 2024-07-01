@@ -31,6 +31,8 @@
     /* box-shadow: 3px 3px 3px rgb(255, 255, 255, 0.1); */
     /* box-shadow: 1px 1px 1px 1px var(--cinza-color); */
     object-fit: cover;
+    box-shadow: var(--shadow-black-buttons);
+
 }
 
 .carousel-item img:hover{

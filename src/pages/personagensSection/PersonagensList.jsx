@@ -24,6 +24,7 @@ export function PersonagensList() {
                             <div className='list-text'>
                                 <h2>{name}</h2>
                                 <p>{descricion}</p>
+                                <button className='button-learn'>Saiba Mais</button>
                             </div>
                         </div>
                     )
