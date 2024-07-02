@@ -60,7 +60,7 @@
     color: var(--tertiary-color);
     border-radius: 10px;
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 900;
     box-shadow: var(--shadow-black-buttons);
 }
 
@@ -71,7 +71,7 @@ button:hover {
 
 #button-black {
     background-color: #790907;
-    color: black;
+    color: #000000;
 }
 
 #button-green {

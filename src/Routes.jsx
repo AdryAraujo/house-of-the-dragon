@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import { Personagens } from "./pages/personagensSection/Personagens";
+import { CharactersListPage } from "./pages/personagensSection/CharactersListPage";
 
 export const router = createBrowserRouter([
     {
@@ -9,14 +9,14 @@ export const router = createBrowserRouter([
     },
     {
         path: "/personagens",
-        element: <Personagens />,
+        element: <CharactersListPage />,
     },
     {
         path: "/resumo",
-        element: <Personagens />,
+        element: <CharactersListPage />,
     },
     {
         path: "/dragoes",
-        element: <Personagens />,
+        element: <CharactersListPage />,
     },
 ]);

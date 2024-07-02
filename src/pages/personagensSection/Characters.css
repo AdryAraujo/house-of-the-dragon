@@ -1,4 +1,4 @@
-#tittle{
+#tittle {
     display: flex;
     justify-content: space-between;
     padding-inline: 40px;
@@ -6,13 +6,13 @@
     box-sizing: border-box;
 }
 
-.container-list{
+.container-list {
     display: flex;
     flex-direction: column;
     /* border: 1px solid yellow; */
 }
 
-.list-item{
+.list-item {
     border: 1px solid var(--background-modal);
     display: flex;
     justify-content: flex-start;
@@ -21,26 +21,25 @@
     padding-block: 24px;
     box-sizing: border-box;
     flex-wrap: wrap;
-    background-color:#0B0B0B;
+    background-color: #0B0B0B;
     padding-inline: 40px;
     box-sizing: border-box;
-
 }
 
-.list-item:hover{
+.list-item:hover {
     background-color: var(--background-modal);
     border: 1px solid var(--background-color);
 }
 
-.list-item img{
+.list-item img {
     border-radius: 50%;
     height: 180px;
     width: 180px;
     object-fit: cover;
-        /* border: 1px solid red; */
+    /* border: 1px solid red; */
 }
 
-.list-text{
+.list-text {
     /* border: 1px solid red; */
     color: var(--tertiary-color);
     letter-spacing: 3.5px;
@@ -50,16 +49,51 @@
     flex-wrap: wrap;
     gap: 20px;
     text-align: justify;
+    line-height: 1.5;
 }
 
-.button-learn{
+.button-learn {
     width: 148px;
     height: 40px;
     color: var(--tertiary-color);
     border-radius: 10px;
     font-size: 1.15rem;
     font-weight: 700;
-    box-shadow: var( --shadow-black-buttons);
+    box-shadow: var(--shadow-black-buttons);
     background-color: var(--primary-color);
 }
 
+@media (max-width: 515px) {
+    .list-item {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 0;
+        /* border: 1px solid yellow; */
+        /* padding: 0; */
+    }
+
+    .list-text {
+        width: 100%;
+        /* border: 1px solid yellow; */
+        padding-inline: 30px;
+        box-sizing: border-box;
+        align-items: center;
+        gap: 24px;
+    }
+
+    #tittle {
+        /* justify-content: center; */
+        padding-inline: 20px;
+        font-size: 1.75rem;
+        line-height: 1.5;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .list-text {
+        width: 60%;
+    }
+}

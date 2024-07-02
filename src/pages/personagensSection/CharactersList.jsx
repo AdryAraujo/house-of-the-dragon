@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import './Characters.css'
 
-export function PersonagensList() {
+export function CharactersList() {
 
     // const navigate = useNavigate();
     const [data, setData] = useState([]);

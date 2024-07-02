@@ -2,6 +2,7 @@
     {
       "name": "Daemon Targaryen" ,
       "image": "http://localhost:3000/static/assets/daemon.jpg",
+      "descricion-summary": "Princípe Daemon Targaryen, filho do princípe Baelon Targaryen, irmão do Rei Viserys, foi um grande guerreiro, sanguinário inclusive, monta o dragão Caraxes. Foi ",
       "descricion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sint in cumque sapiente perspiciatis dolorem incidunt, praesentium beatae placeat nihil eum optio quas, quam dicta a molestiae illum quis ipsam."
     },
     {
@@ -39,5 +40,16 @@
       "image": "http://localhost:3000/static/assets/rhaenys.jpg",
       "descricion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sint in cumque sapiente perspiciatis dolorem incidunt, praesentium beatae placeat nihil eum optio quas, quam dicta a molestiae illum quis ipsam."
 
+    },
+    {
+      "name": "Aemond Targaryen" ,
+      "image": "http://localhost:3000/static/assets/aemond-teste.jpg",
+      "descricion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sint in cumque sapiente perspiciatis dolorem incidunt, praesentium beatae placeat nihil eum optio quas, quam dicta a molestiae illum quis ipsam."
+
+    },
+    {
+      "name": "Aegon Targaryen" ,
+      "image": "http://localhost:3000/static/assets/aegon.jpg",
+      "descricion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sint in cumque sapiente perspiciatis dolorem incidunt, praesentium beatae placeat nihil eum optio quas, quam dicta a molestiae illum quis ipsam."
     }
 ]

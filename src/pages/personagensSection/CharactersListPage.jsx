@@ -1,9 +1,9 @@
 import { useLocation } from "react-router-dom";
-import './Personagens.css';
-import { PersonagensList } from "./PersonagensList";
+import './Characters.css';
 import Navbar from "../../components/navbar/Navbar";
+import { CharactersList } from "./CharactersList";
 
-export function Personagens() {
+export function CharactersListPage() {
 
     // const location = useLocation();
     // const nome = location.state.name;
@@ -12,7 +12,7 @@ export function Personagens() {
         <div>
             <Navbar/>
             <h1 id="tittle">Personagens em Destaque</h1>
-            <PersonagensList />
+            <CharactersList />
         </div>
     )
 }
