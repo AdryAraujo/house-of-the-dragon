@@ -27,8 +27,8 @@ export function Carousel() {
         carousel.current.scrollLeft += carousel.current.offsetWidth;
     }
 
-    function handleRedirectToInfo(name) {
-        navigate(`/personagens`, { state: { name } }); // Redireciona com state
+    function handleRedirectToInfo(name, descricionSummary, descricion, imageProfile) {
+        navigate(`/personagemEscolhido`, { state: { name, descricionSummary, descricion, imageProfile } }); // Redireciona com state
         console.log("chegou aqui")
       }
 
@@ -41,11 +41,11 @@ export function Carousel() {
             </button>
             <div className='content-carousel' ref={carousel}>
                 {data.map((item) => {
-                    const { name, image } = item
+                    const { name, image, descricionSummary, descricion, imageProfile  } = item
                     return (
                         <div className="carousel-item" key={name}>
-                            <img src={image} alt=""  onClick={() => handleRedirectToInfo(name)}/>
-                            {/* <button>{name}</button> */}
+                            <img src={image} alt=""  
+                            onClick={() => handleRedirectToInfo(name, descricionSummary, descricion, imageProfile )}/>
                         </div>
                     )
                 })}

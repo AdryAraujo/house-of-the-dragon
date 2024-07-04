@@ -97,3 +97,23 @@
         width: 60%;
     }
 }
+
+/* pagina de escolha de personagens */
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.list-item h1{
+    font-size: 2.3rem;
+}
+
+.image-main{
+    border-radius: 50%;
+    height: 260px !important; 
+    width: 260px !important;
+    object-fit: cover;
+    border: 1px solid red;
+}
