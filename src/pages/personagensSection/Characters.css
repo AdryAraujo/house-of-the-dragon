@@ -108,6 +108,11 @@
 
 .list-item h1{
     font-size: 2.3rem;
+    /* text-align: center; */
+}
+
+.content-list{
+    justify-content: center;
 }
 
 .image-main{
@@ -115,5 +120,8 @@
     height: 260px !important; 
     width: 260px !important;
     object-fit: cover;
-    border: 1px solid red;
+}
+
+.text-descricion{
+    width: 80%;
 }

@@ -14,9 +14,9 @@ export function CharactersMainPage() {
     return (
         <div className="container-main">
             <Navbar />
-            <div className="list-item" key={name}>
+            <div className="list-item content-list" key={name}>
                 <img className="image-main" src={imageProfile} alt="" />
-                <div className='list-text'>
+                <div className='list-text text-descricion'>
                     <h1>{name}</h1>
                     <p>{descricion}</p>
                 </div>
