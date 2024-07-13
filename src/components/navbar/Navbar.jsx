@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import './Navbar.css';
-import { FaBars, FaTimes } from 'react-icons/fa'
-import logo from '../../assets/logoTargaryen.png'
+import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logoTargaryen.png';
+import './Navbar.css';
 
 
 function Navbar() {

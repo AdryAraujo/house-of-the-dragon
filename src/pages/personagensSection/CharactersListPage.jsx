@@ -1,6 +1,5 @@
-import { useLocation } from "react-router-dom";
-import './Characters.css';
 import Navbar from "../../components/navbar/Navbar";
+import './Characters.css';
 import { CharactersList } from "./CharactersList";
 
 export function CharactersListPage() {

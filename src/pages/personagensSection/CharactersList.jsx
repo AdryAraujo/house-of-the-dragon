@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import './Characters.css'
+import './Characters.css';
 
 export function CharactersList() {
 
