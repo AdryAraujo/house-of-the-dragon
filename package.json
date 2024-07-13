@@ -4,6 +4,7 @@
   "homepage": "https://AdryAraujo.github.io/house-of-the-dragon",
   "private": true,
   "dependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -43,6 +44,7 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.24.7",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "vite": "^5.3.3"
   }
 }
