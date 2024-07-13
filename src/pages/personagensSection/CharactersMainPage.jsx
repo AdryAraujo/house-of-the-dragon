@@ -7,7 +7,7 @@ export function CharactersMainPage() {
 
     const location = useLocation();
     const name = location.state.name;
-    const descricionSummary = location.state.descricionSummary;
+    //const descricionSummary = location.state.descricionSummary;
     const descricion = location.state.descricion;
     const imageProfile = location.state.imageProfile;
 
