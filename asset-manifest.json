@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/house-of-the-dragon/static/css/main.3b7db470.css",
-    "main.js": "/house-of-the-dragon/static/js/main.72bf9f82.js",
+    "main.js": "/house-of-the-dragon/static/js/main.acc40e74.js",
     "static/media/capaRhaenyraMb.jpg": "/house-of-the-dragon/static/media/capaRhaenyraMb.4d2619e759036ebcef17.jpg",
     "static/media/capaRhaenyraLg.jpg": "/house-of-the-dragon/static/media/capaRhaenyraLg.f1ed5e46002fa4a0797c.jpg",
     "static/media/mapa-hd.jpg": "/house-of-the-dragon/static/media/mapa-hd.8ec7088308cf8ab81959.jpg",
@@ -13,10 +13,10 @@
     "static/media/Game-of-Thrones.ttf": "/house-of-the-dragon/static/media/Game-of-Thrones.71fa190a8a1a34123fa1.ttf",
     "index.html": "/house-of-the-dragon/index.html",
     "main.3b7db470.css.map": "/house-of-the-dragon/static/css/main.3b7db470.css.map",
-    "main.72bf9f82.js.map": "/house-of-the-dragon/static/js/main.72bf9f82.js.map"
+    "main.acc40e74.js.map": "/house-of-the-dragon/static/js/main.acc40e74.js.map"
   },
   "entrypoints": [
     "static/css/main.3b7db470.css",
-    "static/js/main.72bf9f82.js"
+    "static/js/main.acc40e74.js"
   ]
 }
